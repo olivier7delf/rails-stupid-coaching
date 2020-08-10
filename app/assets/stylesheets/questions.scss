@@ -1,0 +1,40 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+a {
+  font-size: 8px;
+  &:hover {
+    color: black;
+  }
+}
+
+p {
+  font-weight: light;
+}
+
+form {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.15);
+  // color: white;
+  #ask_question {
+    flex-grow: 1;
+    color: blue;
+    background-color: rbga(50, 10, 10, .05);
+  }
+}
+
+#ask_submit {
+    background-color: rgb(31, 58, 147);
+    opacity: .8;
+  }
+
+#ask_submit:hover {
+    opacity: 1;
+  }
+
+.answer {
+  &:hover {
+    background-color: rgba(247, 202, 24, .2);
+  }
+}
+
